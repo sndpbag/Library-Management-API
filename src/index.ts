@@ -7,7 +7,7 @@ dotenv.config();
 
 let server: Server;
 
-const port = process.env.PORT;
+const port: number = parseInt(process.env.PORT || '5000');
 const mongoUri = process.env.MONGODB_URI;
 
 async function main() {
