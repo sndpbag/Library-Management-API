@@ -1,31 +1,4 @@
-// import { Schema, Document, model, Types } from 'mongoose';
 
-// export interface IBorrow extends Document {
-//   book: Types.ObjectId;
-//   quantity: number;
-//   dueDate: Date;
-// }
-
-// const borrowSchema = new Schema<IBorrow>(
-//   {
-//     book: { type: Schema.Types.ObjectId, ref: 'Book', required: true },
-//     quantity: { type: Number, required: true, min: 1 },
-//     dueDate: { type: Date, required: true },
-//   },
-//   { timestamps: true }
-// );
-
-// borrowSchema.post('save', async function (doc, next) {
-//   const Book = require('./book.model').Book;
-//   const book = await Book.findById(doc.book);
-//   if (book) {
-//     book.copies -= doc.quantity;
-//     await book.updateAvailability();
-//   }
-//   next();
-// });
-
-// export const Borrow = model<IBorrow>('Borrow', borrowSchema);
 
 // src/models/borrow.model.ts
 import { Schema, Document, model, Types } from 'mongoose';
