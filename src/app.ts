@@ -8,7 +8,7 @@ app.use('/api', bookRoutes);
 app.use('/api', borrowRoutes);
 
 // Health check
-app.get('/health', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ status: 'OK', message: 'Library Management API is running' });
 });
 
