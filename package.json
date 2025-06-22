@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-     "build": "tsc"
+    "build": "tsc"
   },
   "author": "sndp bag",
   "license": "ISC",
@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "mongodb": "^6.17.0",
     "mongoose": "^8.16.0"
   },
   "devDependencies": {
