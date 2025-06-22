@@ -108,8 +108,7 @@ GET /api/health
 |--------|----------|-------------|
 | `POST` | `/api/borrow` | Borrow a book |
 | `GET` | `/api/borrow` | Get all borrow records |
-| `GET` | `/api/borrow/:id` | Get borrow record by ID |
-| `PUT` | `/api/return/:id` | Return a book |
+ 
 
 #### Borrow Book Request Body
 ```json
