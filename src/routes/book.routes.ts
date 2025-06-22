@@ -11,7 +11,7 @@ const router = express.Router();
 router.post('/books', async (req: Request, res: Response) => {
   try {
     const book = new Book(req.body);
-    console.log(req.body)
+  
     await book.save();
     res.status(201).json({
       success: true,

@@ -225,8 +225,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/sndpbag)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/sndpbag)
+- GitHub: [@sndpbag](https://github.com/sndpbag)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sndpbag)
 - Email: sandipan735@gmail.com
 
 ## 🙏 Acknowledgments
